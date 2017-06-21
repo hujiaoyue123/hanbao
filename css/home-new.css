@@ -1,0 +1,30 @@
+
+/*ad汉堡中间部分
+———————————————————*/
+.ad .ad-middle h1{
+    color: #1B6568;
+    font-size: 36px;
+    margin-top: 3px;
+    margin-bottom: 25px;
+}
+.ad .ad-middle p{
+   font-size: 16px;
+    color: #4c1407;
+    line-height: 41px;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+.ad .ad-middle p span{
+    text-decoration: underline;
+}
+.ad .ad-bottom{
+    margin-bottom: 10px;
+}
+.ad .ad-bottom li{
+    float: left;
+    margin-right: 28px;
+}
+.ad .ad-bottom .last{
+    margin-right: 0;
+}
+

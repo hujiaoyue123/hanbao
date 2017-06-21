@@ -1,0 +1,167 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+body{
+    background-image: url(../image1/bg.png);
+}
+.w{
+    width: 960px;
+    margin:0 auto;
+}
+/*logo部分
+————————————————————*/
+
+.logo{
+    margin:43px 0 3px;
+}
+/*nav导航部分
+————————————————————*/
+.nav .nav-top,.nav .nav-bottom,.foot .foot-border{
+    height: 8px;
+    background-color: #822619;
+    margin:3px 0;
+}
+/*导航中间绿色条*/
+.nav .nav-middle{
+    height: 49px;
+    background:#1B6568 url(../image1/diamond.png) repeat-x center;
+}
+/*导航列表ul内容居中*/
+.nav .nav-list{
+    line-height:49px;
+}
+/*导航列表li内容布局*/
+.nav .nav-list li{
+    /*background-color: red;*/
+    display: inline;
+    margin-right: 62px;
+    font-size: 21px;
+}
+.nav .nav-list li .home,
+.nav .nav-list li .about,
+.nav .nav-list li .menu,
+.nav .nav-list li .contact,
+.nav .nav-list li .blog{
+    color: #FFF;
+}
+.nav .nav-list li a{
+    text-decoration: none;
+    color: #94C4C7;
+}
+.nav .nav-list li a:hover{
+    color: #EBE9D7;
+}
+/*waiter服务员定位*/
+.nav .nav-middle .waiter{
+    width: 335px;
+    height: 205px;
+    background-image: url(../image1/waiter.png);
+    position: absolute;
+    top: -145px;
+    right: -21px;
+}
+.nav .nav-middle .nav-list-wrap{
+    position: relative;
+}
+/*foot底部部分
+————————————————————*/
+.foot .foot-content{
+    background-color: #1B6568;
+    height: 225px;
+}
+.foot .foot-content-left{
+    width: 230px;
+    height: 151px;
+}
+.foot .foot-content-left .p1{
+    font-size: 18px;
+    color:#ebe9d7;
+    padding-top: 29px;
+}
+.foot .foot-content-left .p2{
+    font-size: 24px;
+    color:#ebe9d7;
+    line-height:42px;
+    margin-bottom: 11px;
+}
+.foot .foot-content-left .link{
+
+}
+.foot .foot-content-left .link li{
+    float: left;
+    margin-right: 13px;
+}
+.foot-content-left,
+.foot-content-middle,
+.foot-content-right{
+    float: left;
+}
+.foot .foot-content-middle{
+    margin-left: 10px;
+    /*background-color: red;*/
+    color: #f2efd1;
+    width: 440px;
+    height: 150px;
+}
+.foot .foot-content-middle li{
+    display: inline;
+    margin-right: 6px;
+}
+.foot .foot-content-middle .middle-img{
+    margin-left:148px;
+    margin-top: 29px;
+    margin-bottom: 24px;
+}
+.foot .foot-content-middle ul{
+    margin-left:42px;
+    margin-bottom: 3px;
+}
+.foot .foot-content-middle p{
+    margin-left: 34px;
+}
+.foot .foot-content-right{
+    margin-left: 60px;
+    /*background-color: blue;*/
+    margin-top: 31px;
+    width: 230px;
+    margin-right: -10px;
+}
+.foot .foot-content-right p{
+    color: #EBE9D7;
+    margin-right: 1px;
+    width:329px;
+    /*background-color: yellow;*/
+    font-size: 18px;
+}
+.foot .foot-content-right .txt{
+    background-image: url(../image1/email.png);
+    background-color: transparent;
+    width: 230px;
+    height: 27px;
+    border: none;
+    outline: none;
+    text-indent: 32px;
+    margin: 12px 0;
+}
+.foot .foot-content-right .button{
+    border:2px solid #F2EFD1;
+    width: 210px;
+    height: 36px;
+    background-color: #822619;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 36px;
+    margin-left: 8px;
+
+}
+.foot .foot-content-right .button a{
+    color: #EBE9D7;
+    text-decoration: none;
+}

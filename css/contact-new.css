@@ -1,0 +1,99 @@
+.contact{
+    margin-top: 38px;
+    position: relative;
+    margin-bottom: 32px;
+}
+/*contact-left左边内容
+----------------------------------------------------*/
+.contact .contact-left{
+    border: 8px solid #822619;
+    border-radius: 8px;
+    background-color: #ebe9d7;
+    width: 633px;
+    float: left;
+}
+.contact-left-txt {
+    padding: 34px;
+    text-align: justify;
+}
+
+.contact-left-txt h1{
+    font-size: 36px;
+    color: #1B6568;
+    margin-bottom: 38px;
+}
+.contact-left-txt p{
+    font-size: 16px;
+    color: #4C1407;
+    line-height: 30px;
+    margin-bottom: 74px;
+}
+.contact-left-txt .p2{
+    font-size: 21px;
+    color: #822619;
+}
+.contact .contact-left-txt ul{
+    font-size: 16px;
+    color: #4C1407;
+    margin-top: 23px;
+}
+.contact .contact-left-txt input{
+    border:1px solid #4C1407;
+}
+.contact .contact-left-txt textarea{
+    border:1px solid #4C1407;
+}
+.contact .contact-left-txt .button1{
+    width: 112px;
+    height: 33px;
+    background-color: #822619;
+    border: 4px solid #1B6568;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #ebe9d7;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 67px;
+}
+.contact .contact-left-txt a,
+.contact .contact-right a{
+    text-decoration: none;
+    color: #F2EFD1;
+}
+/*contact-right右边内容
+----------------------------------------------------*/
+.contact-right{
+    width: 300px;
+    float: left;
+    /*background-color: red;*/
+    text-align: center;
+    margin-left: 11px;
+    margin-top: 38px;
+}
+.contact-right ul{
+    margin-bottom: 50px;
+    margin-left: 64px;
+}
+.contact-right .head{
+    font-size: 30px;
+    color: #1B6568;
+    margin-bottom: 13px;
+
+}
+.contact-right .p{
+    font-size: 16px;
+    color: #3E1C14;
+    line-height: 33px;
+}
+.contact-right .button2{
+    width: 287px;
+    height: 45px;
+    background-color: #822619;
+    border: 4px solid #1B6568;
+    border-radius: 8px;
+    font-size: 26px;
+    color: #ebe9d7;
+    line-height: 45px;
+    text-align: center;
+    margin-left: 57px;
+}

@@ -1,0 +1,30 @@
+.txt-about{
+    margin-top: 38px;
+    margin-bottom: 33px;
+    border: 8px solid #822619;
+    border-radius: 8px;
+    background-color: #EBE9D7;
+}
+.txt-about .txt-content{
+    padding: 34px;
+}
+.txt-about .txt-content span{
+    text-decoration: underline;
+}
+.txt-about .txt-content h1{
+    color: #1b6568;
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+.txt-about .txt-content h2{
+    font-size: 24px;
+    color: #822619;
+    margin-bottom: 45px;
+}
+.txt-about .txt-content p{
+    font-size: 16px;
+    color: #4C1407;
+    margin-bottom: 35px;
+    text-align: justify;
+    line-height: 29px;
+}
